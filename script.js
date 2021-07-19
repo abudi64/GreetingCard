@@ -20,7 +20,7 @@ function drawImage() {
 	ctx.textBaseline = 'middle'
 	ctx.textAlign = 'center'
 
-	ctx.fillText(nameInput.value, canvas.width/2, 840)
+	ctx.fillText(nameInput.value, canvas.width/2, 820)
 }
 
 nameInput.addEventListener('input', function () {
